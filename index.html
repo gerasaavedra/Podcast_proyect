@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcast</title>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;300;400;500&family=IBM+Plex+Sans:wght@200;300;400;600&display=swap" rel="stylesheet">
+
+
+
+
+</head>
+
+<body>
+
+    <header class="site-header fixed">
+
+        <div class="nav">
+            <a class="logo" href="index.html"><img src="icons/logo.svg" alt="logo"></a>
+            <a class="mobile-menu" href="#nav"><i class="fas fa-bars"></i></a>
+        </div>
+        <!--.nav-->
+        <nav id="nav" class="desktop-nav">
+            <a href="#episodes">Episodios</a>
+            <a href="#us">Nosotros</a>
+            <a href="#interview">Entrevistas</a>
+            <a href="#topics">Tópicos</a>
+            <a href="#" class="close"><i class="fas fa-window-close"></i></a>
+        </nav>
+        <!--.desktop-nav-->
+
+    </header>
+    <!--.site-header-->
+
+
+    <div class="container global-info">
+        <h1>Hello <span>world</span><br> pale blue dot<span class="dot">.</span></h1>
+        <p>Un Podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.
+        </p>
+        <a href="#" class="button">Conocé Más</a>
+    </div>
+    <!--.global-info-->
+
+
+    <main>
+        <section class="episodes">
+            <div class="container info-episodes">
+                <h2>Episodios</h2>
+                <div class="podcast-list">
+                    <ul>
+                        <li><iframe src="https://open.spotify.com/embed-podcast/show/2ySVrxGkN6n6frMTo9Nsrt" allow="encrypted-media"></iframe></li>
+                        <li><iframe src="https://open.spotify.com/embed-podcast/show/4kYCRYJ3yK5DQbP5tbfZby" allow="encrypted-media"></iframe></li>
+                        <li><iframe src="https://open.spotify.com/embed-podcast/show/5JxcIaIkN8zx3Zy7yD9snv" allow="encrypted-media"></iframe></li>
+                        <li><iframe src="https://open.spotify.com/embed-podcast/show/2Iibd5A6R7mxkCm4NwNmUn" allow="encrypted-media"></iframe></li>
+                    </ul>
+                </div>
+                <!--.podcast-list-->
+            </div>
+            <!--.info-episodes-->
+        </section>
+        <!--.episodes-->
+
+        <div class="container two-columns">
+            <div class="grid">
+                <img src="img/phone.png" alt="History of Woman">
+            </div>
+            <div class="grid">
+                <h2>De dónde <br> venimos</h2>
+                <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light. <br> <br> Our planet is a lonely speck in the great enveloping cosmic dark. In
+                    our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
+            </div>
+        </div>
+        <!--.two-columns-->
+    </main>
+
+
+    <div class="container guests-section">
+        <div>
+            <h2>Invitadas/os estelares</h2>
+        </div>
+    </div>
+    <!--.guests-section-->
+
+    <div class="guests-section">
+        <div class="guests-img">
+            <ul class="three-columns">
+                <li><img src="img/grace-hopper.png" alt="img01"></li>
+                <li><img src="img/Katie-Bouman.png" alt="img02"></li>
+                <li><img src="img/Margaret_Hamilton.png" alt="img03"></li>
+                <li><img src="img/An_E.R.A.Univac_1103_computer_in_the_1950s.png" alt="img04"></li>
+                <li><img src="img/Computer_operators_with_an_Eniac_the_world’s_first_programmable_general_purpose_computer.png" alt="img05"></li>
+                <li><img src="img/susan-kare.png" alt="img06"></li>
+            </ul>
+            <!--.three-columns-->
+        </div>
+        <!--.guests-img-->
+    </div>
+    <!--.guests-section-->
+
+    <section class="container some-themes">
+        <h2>Algunos de nuestros temas</h2>
+        <ul class="themes-list">
+            <li>
+                <div class="theme">
+                    <a class="theme-info" href="#trabajo-remoto">
+                        <img src="icons/icon1.svg" alt="Trabajo Remoto">
+                        <h3>Trabajo Remoto</h3>
+                    </a>
+                </div>
+                <!--.theme-->
+            </li>
+            <li>
+                <div class="theme">
+                    <a class="theme-info" href="#repensando-la-programacion">
+                        <img src="icons/icon2.svg" alt="Repensando la Programacion">
+                        <h3>Repensando la programación</h3>
+                    </a>
+                </div>
+                <!--.theme-->
+            </li>
+            <li>
+                <div class="theme">
+                    <a class="theme-info" href="#base-de-codigo">
+                        <img src="icons/icon3.svg" alt="Base de Codigo">
+                        <h3>Bases del código</h3>
+                    </a>
+                </div>
+                <!--.theme-->
+            </li>
+            <li>
+                <div class="theme">
+                    <a class="theme-info" href="#seguridad-informatica">
+                        <img src="icons/icon4.svg" alt="Seguridad Informática">
+                        <h3>Seguridad Informática</h3>
+                    </a>
+                </div>
+                <!--.theme-->
+            </li>
+        </ul>
+        <!--.themes-list-->
+    </section>
+    <!--.some-themes-->
+
+    <div class="newsletter">
+        <div class="container news-content">
+            <h2>¿Querés las últimas novedades?</h2>
+            <a href="#" class="button">Escuchá los Episodios</a>
+        </div>
+        <!--.news-content-->
+    </div>
+    <!--.newsletter-->
+
+
+    <footer class="container site-footer">
+        <div class="copyright">
+            <p>&copy; 2019— Hello blue pale dot</p>
+        </div>
+        <!--.copyright-->
+        <div class="social-media">
+            <nav>
+                <a href="https://www.spotify.com/ar/" target="_blank"><i class="fab fa-spotify"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://web.telegram.org/" target="_blank"><i class="fab fa-telegram"></i></a>
+            </nav>
+        </div>
+        <!--.social-media-->
+    </footer>
+    <!--.site-footer-->
+
+
+
+</body>
+
+</html>
